@@ -1,0 +1,87 @@
+#container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+#container .header {
+  width: 95%;
+  height: 80rpx;
+  font-size: 32rpx;
+  margin: 20rpx auto;
+  line-height: 80rpx;
+}
+#container .header .county {
+  white-space: nowrap;
+}
+#container .header .county .county-item {
+  margin-right: 16rpx;
+  padding: 5rpx 8rpx;
+}
+#container .header .active {
+  font-weight: 600;
+  color: #903;
+  border-bottom: 2.5px solid #903;
+}
+#container .options {
+  width: 90%;
+  height: 180rpx;
+  margin: 0 auto;
+  position: relative;
+}
+#container .options .project-num {
+  width: 40%;
+  position: absolute;
+  bottom: 20rpx;
+  color: #903;
+  font-size: 28rpx;
+  font-weight: bold;
+}
+#container .options .icon-box {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  width: 100%;
+  margin-top: 10rpx;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+#container .options .icon-box .icon-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-right: 14rpx;
+}
+#container .options .icon-box .icon-item text {
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+#container .map {
+  width: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+#container .map map {
+  width: 100%;
+  height: 100%;
+}
+#container .blank {
+  width: 100%;
+  height: 24rpx;
+  background-color: #fff;
+}
+

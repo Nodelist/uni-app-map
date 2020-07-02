@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/industry/industry",
+    "pages/park/park",
+    "pages/company/company",
+    "pages/project/project",
+    "pages/environment/environment"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "d81e06",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/industry.png",
+        "selectedIconPath": "static/images/industry_HL.png",
+        "text": "产业"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/park.png",
+        "selectedIconPath": "static/images/park_HL.png",
+        "text": "园区"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/company.png",
+        "selectedIconPath": "static/images/company_HL.png",
+        "text": "企业"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/project.png",
+        "selectedIconPath": "static/images/project_HL.png",
+        "text": "项目"
+      },
+      {
+        "pagePath": "pages/environment/environment",
+        "iconPath": "static/images/environment.png",
+        "selectedIconPath": "static/images/environment_HL.png",
+        "text": "环境"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}
